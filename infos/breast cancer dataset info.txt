@@ -1,0 +1,86 @@
+Mean Radius: The mean of distances from the center to points on the perimeter of the cell nuclei. This can give an indication of the size of the cell nuclei.
+
+Mean Texture: The mean value of the standard deviation of gray-scale values in the image. It measures the uniformity of cell nuclei texture.
+
+Mean Perimeter: The mean size of the cell nuclei's perimeter. Larger perimeters may suggest larger tumor sizes.
+
+Mean Area: The mean size of the cell nuclei's area. It provides information about the size of cell nuclei.
+
+Mean Smoothness: The mean of local variation in the radius lengths. It measures the smoothness of the cell nuclei contours.
+
+Mean Compactness: The mean of the perimeter^2 divided by the area - 1.0. It quantifies how closely the perimeter of the cell nuclei matches that of a circle.
+
+Mean Concavity: The mean severity of concave portions of the contour. Higher values may indicate more irregular cell shapes.
+
+Mean Concave Points: The mean number of concave portions of the contour. It measures the number of concave points on the cell nuclei contour.
+
+Mean Symmetry: The mean symmetry of cell nuclei. It provides information about the uniformity of cell shape.
+
+Mean Fractal Dimension: The mean "coastline approximation" - 1. It characterizes the complexity of the cell shape.
+
+Radius SE: The standard error of the mean radius.
+
+Texture SE: The standard error of the mean texture.
+
+Perimeter SE: The standard error of the mean perimeter.
+
+Area SE: The standard error of the mean area.
+
+Smoothness SE: The standard error of the mean smoothness.
+
+Compactness SE: The standard error of the mean compactness.
+
+Concavity SE: The standard error of the mean concavity.
+
+Concave Points SE: The standard error of the mean concave points.
+
+Symmetry SE: The standard error of the mean symmetry.
+
+Fractal Dimension SE: The standard error of the mean fractal dimension.
+
+Radius Worst: The "worst" or largest mean value of the mean radius among all clusters.
+
+Texture Worst: The "worst" or largest mean value of the mean texture among all clusters.
+
+Perimeter Worst: The "worst" or largest mean value of the mean perimeter among all clusters.
+
+Area Worst: The "worst" or largest mean value of the mean area among all clusters.
+
+Smoothness Worst: The "worst" or largest mean value of the mean smoothness among all clusters.
+
+Compactness Worst: The "worst" or largest mean value of the mean compactness among all clusters.
+
+Concavity Worst: The "worst" or largest mean value of the mean concavity among all clusters.
+
+Concave Points Worst: The "worst" or largest mean value of the mean concave points among all clusters.
+
+Symmetry Worst: The "worst" or largest mean value of the mean symmetry among all clusters.
+
+Fractal Dimension Worst: The "worst" or largest mean value of the mean fractal dimension among all clusters.
+
+========================================================================================================================
+
+Mean Radius: The average radius of cancer cell nuclei. Larger values may indicate more aggressive tumors.
+
+Mean Texture: The average texture (standard deviation of gray-scale values) of cancer cell nuclei. Texture can provide information about the uniformity of cell nuclei.
+
+Mean Perimeter: The average perimeter of cancer cell nuclei. Larger perimeters can be associated with larger tumor sizes.
+
+Mean Area: The average area of cancer cell nuclei. This can provide insights into the size of cell nuclei.
+
+Mean Smoothness: The average smoothness of the contour of cancer cell nuclei. Smoothness can relate to the regularity of cell shape.
+
+Mean Compactness: The average compactness, which measures how closely the perimeter of the cell nuclei matches the perimeter of a circle. High compactness may indicate irregular cell shapes.
+
+Mean Concavity: The average concavity, which measures the severity of concave portions of the contour. Higher values may indicate more irregular cell shapes.
+
+Mean Concave Points: The average number of concave portions of the contour. This can be a measure of cell irregularity.
+
+Mean Symmetry: The average symmetry of cell nuclei. Symmetry can provide information about the uniformity of cell shape.
+
+Mean Fractal Dimension: The average fractal dimension, which characterizes the complexity of the cell shape. Higher values may indicate more irregular and complex shapes.
+
+These columns contain measurements of various features related to cell nuclei, and they are essential for distinguishing
+between benign and malignant breast cancer tumors. When building a predictive model, these features are typically used
+to classify tumors as either malignant or benign based on their characteristics. Proper feature selection and model
+evaluation techniques are important for achieving accurate results in breast cancer diagnosis.
