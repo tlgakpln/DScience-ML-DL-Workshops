@@ -8,7 +8,7 @@ You should install requirements.txt
 You can analyze these datasets;
 > analysis.py
 
-![boxplot](https://github.com/tlgakpln/DScience-ML-DL-Workshops/assets/46111780/17b89cc7-666a-477f-b1e5-9622e5fb04eb) ![dist](https://github.com/tlgakpln/DScience-ML-DL-Workshops/assets/46111780/df931c50-aa4a-4010-9cd1-aee6d31b46c9) ![pair](https://github.com/tlgakpln/DScience-ML-DL-Workshops/assets/46111780/2d102c33-e4e8-4e60-a989-85b05f6202de)
+![boxplot](https://github.com/tlgakpln/DScience-ML-DL-Workshops/assets/46111780/17b89cc7-666a-477f-b1e5-9622e5fb04eb) ![dist](https://github.com/tlgakpln/DScience-ML-DL-Workshops/assets/46111780/df931c50-aa4a-4010-9cd1-aee6d31b46c9) 
 
 If you want to detect cancer in breast cancer data:
 > cancer_detection.py
