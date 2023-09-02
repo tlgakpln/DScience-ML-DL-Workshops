@@ -1,0 +1,44 @@
+Alcohol: The alcohol content of the wine (measured in percentage).
+
+Malic Acid: The amount of malic acid in the wine (measured in g/L).
+
+Ash: The amount of ash in the wine (measured in g/L).
+
+Alcalinity of Ash: The alkalinity of the ash (measured in pH).
+
+Magnesium: The amount of magnesium in the wine (measured in mg/L).
+
+Total Phenols: The total amount of phenolic compounds in the wine.
+
+Flavanoids: The amount of flavanoids in the wine.
+
+Nonflavanoid Phenols: The amount of nonflavanoid phenols in the wine.
+
+Proanthocyanins: The amount of proanthocyanins in the wine.
+
+Color Intensity: The color intensity of the wine (measured in optical density).
+
+Hue: The hue of the wine.
+
+OD280/OD315 of Diluted Wines: The optical density of wines at 280/315 nm.
+
+Proline: The amount of proline in the wine (measured in mg/L).
+
+========================================================================================================================
+
+Flavanoids: Flavanoids contribute significantly to the typical taste and aroma of wines.
+Therefore, the "Flavanoids" column may have a high importance in distinguishing between wine types.
+
+Total Phenols: Total phenols are compounds that influence the color, aroma, and flavor profile of wines.
+This column could also be crucial in differentiating between wine types.
+
+OD280/OD315 of Diluted Wines: This optical density column provides information about the color and concentration of wines.
+It may play a significant role in determining wine types.
+
+Proline: The amount of proline can impact the taste and texture of wines.
+Hence, the "Proline" column might have a decisive role in classifying wine types.
+
+These columns are likely to be important features for predicting wine types. However, when training your model,
+it's essential to evaluate all features and consider techniques such as feature selection or dimensionality reduction
+to achieve better results. Additionally, using methods like cross-validation to assess your model's performance and
+fine-tuning it for optimal results is crucial.
